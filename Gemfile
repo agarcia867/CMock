@@ -1,8 +1,8 @@
-source "http://rubygems.org/"
+# frozen_string_literal: true
 
-gem "bundler"
-gem "rake"
-gem "minitest"
-gem "require_all"
-gem "constructor"
-gem "diy"
+source "https://rubygems.org"
+
+# Specify your gem's dependencies in cmock.gemspec
+gemspec
+
+gem "rake", "~> 13.0"

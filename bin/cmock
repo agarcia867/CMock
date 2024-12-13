@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require_relative '../lib/cmock'
+
+# Pass the arguments to the CLI
+CMockCLI.run(ARGV)
+
+# vim:et:sw=2:sts=2:ts=2:ft=ruby:fileencoding=utf-8:syntax=ruby:tw=100
+
